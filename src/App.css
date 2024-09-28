@@ -1,0 +1,43 @@
+body {
+  background: #304352;
+  background: -webkit-linear-gradient(to right, #d7d2cc, #304352);
+  background: linear-gradient(to right, #d7d2cc, #304352);
+
+}
+
+.count {
+  text-align: center;
+  height: 100vh;
+  margin-top: 200px
+}
+
+.count button {
+  
+  margin: 5px;
+  background: white;
+  width: 100px;
+  color: black;
+  font-weight: bold;
+}
+
+h1 {
+  width: 300px;
+  color: white;
+  font-size: 61px;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #304352, #d7d2cc) 1;
+  border-radius: 100px;
+}
+.counterValue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .count{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+} */
